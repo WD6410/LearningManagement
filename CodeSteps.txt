@@ -1,0 +1,12 @@
+Step 1: Install  nextjs using npx create-next-app@13.4.12 learning-management-system --typescript --tailwind --eslint
+Step 2: Install shadcn-ui package which will help us create a beautiful, featuristic and reusable components and buttons for the user interface (frontend)
+Use npx shadcn-ui@latest init
+Visit the website page to see how to install different components like buttons, etc.
+Step 3: Install clerk package for managing user sign-in and authentication. Use npm install @clerk/nextjs
+Step 4: Visit clerk website to do other necessary steps to complete the set-up.
+Step 5: From the layout.tsx file, import ClerkProvider from '@clerk/nextjs' and wrap the entire return statement inside the ClerkProvider element.
+Step 6: We will provide a middleware for our code in order to protect it. We will also do this from Clerk Provider. We will do this by creating a new file - "middleware.ts" in the root folder/directory
+Step 7: Copy the middleware code from Clerk website and paste it in the newly created middleware.ts file.
+Step 8: We will create the sign-up and sign-in pages, we will create those in the auth\route group folder inside the app folder/directory. We will then create the [[...signu-up]] folder and page.tsx file inside it, all inside the sign-up folder.
+Similarly, we will also create the [[...signu-in]] folder and page.tsx file inside it, all inside the sign-in folder.
+Step 9: Next, we will copy the lines of codes individually from the sign-up and sign-in found on the Clerks website and paste them into individual pages.tsx respectively in the sign-up and sign-in folders.
