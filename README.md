@@ -1,3 +1,6 @@
+This project was built using Next Js, TypeScript and other libraries and frameworks such as Clerk for authentication, Shadcn-Ui for the frontend, Prisma client and Mongo DB for creating database schema. It is a web app platform where teachers/educators/instructors can create courses and add chapters to their courses. They can also add video contents to each chapters as well as relevant attachments for the chapters and courses. Students can visit the platform and browse for courses, watch introduction chapters and finally pay and enroll for the course. The platform can also monitor and display progress of each chapter and course.
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
